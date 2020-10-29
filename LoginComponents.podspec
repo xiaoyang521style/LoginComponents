@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LoginComponents/Classes/**/*'
   
+   s.dependency "ZYMediator"
+
   # s.resource_bundles = {
   #   'LoginComponents' => ['LoginComponents/Assets/*.png']
   # }
