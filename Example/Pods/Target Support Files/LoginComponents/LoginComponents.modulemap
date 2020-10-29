@@ -1,0 +1,6 @@
+framework module LoginComponents {
+  umbrella header "LoginComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

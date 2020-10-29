@@ -1,10 +1,13 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+
+
 platform :ios, '8.0'
 
 target 'LoginComponents_Example' do
   pod 'LoginComponents', :path => '../'
-
+  pod 'ZYMediator' , '~> 0.1.4'
   target 'LoginComponents_Tests' do
     inherit! :search_paths
 

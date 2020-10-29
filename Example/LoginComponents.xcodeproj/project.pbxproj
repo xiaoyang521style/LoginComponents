@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1863DD44254AB6F9006756DF /* ZYMediator+ZYLoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863DD43254AB6F9006756DF /* ZYMediator+ZYLoginModule.m */; };
+		1863DD62254AB8FB006756DF /* ZYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863DD61254AB8FB006756DF /* ZYLoginViewController.m */; };
+		1863DD67254AB97D006756DF /* Target_ZYLoginMoudel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863DD66254AB97D006756DF /* Target_ZYLoginMoudel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1260C4E17B9A99C34BAC1F1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1DB499BF6F4780ABE13A1C51 /* LoginComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LoginComponents.podspec; path = ../LoginComponents.podspec; sourceTree = "<group>"; };
+		1260C4E17B9A99C34BAC1F1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1863DD42254AB6F9006756DF /* ZYMediator+ZYLoginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYMediator+ZYLoginModule.h"; sourceTree = "<group>"; };
+		1863DD43254AB6F9006756DF /* ZYMediator+ZYLoginModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZYMediator+ZYLoginModule.m"; sourceTree = "<group>"; };
+		1863DD60254AB8FB006756DF /* ZYLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLoginViewController.h; sourceTree = "<group>"; };
+		1863DD61254AB8FB006756DF /* ZYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLoginViewController.m; sourceTree = "<group>"; };
+		1863DD65254AB97D006756DF /* Target_ZYLoginMoudel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ZYLoginMoudel.h; sourceTree = "<group>"; };
+		1863DD66254AB97D006756DF /* Target_ZYLoginMoudel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ZYLoginMoudel.m; sourceTree = "<group>"; };
+		1DB499BF6F4780ABE13A1C51 /* LoginComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LoginComponents.podspec; path = ../LoginComponents.podspec; sourceTree = "<group>"; };
 		36D3C3360A4A3AE6F330C900 /* Pods_LoginComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56C5BE60650B7CBE68798BEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56C5BE60650B7CBE68798BEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LoginComponents_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginComponents_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +149,12 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				1863DD42254AB6F9006756DF /* ZYMediator+ZYLoginModule.h */,
+				1863DD43254AB6F9006756DF /* ZYMediator+ZYLoginModule.m */,
+				1863DD60254AB8FB006756DF /* ZYLoginViewController.h */,
+				1863DD61254AB8FB006756DF /* ZYLoginViewController.m */,
+				1863DD65254AB97D006756DF /* Target_ZYLoginMoudel.h */,
+				1863DD66254AB97D006756DF /* Target_ZYLoginMoudel.m */,
 			);
 			name = "Example for LoginComponents";
 			path = LoginComponents;
@@ -193,7 +208,6 @@
 				EE69C1BB9F85E5F7907D55FC /* Pods-LoginComponents_Tests.debug.xcconfig */,
 				B982E8B4DBC07C6DB068360D /* Pods-LoginComponents_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +273,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,10 +319,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LoginComponents_Example/Pods-LoginComponents_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LoginComponents/LoginComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/ZYMediator/ZYMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoginComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -391,7 +408,10 @@
 			files = (
 				6003F59E195388D20070C39A /* ZYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZYViewController.m in Sources */,
+				1863DD44254AB6F9006756DF /* ZYMediator+ZYLoginModule.m in Sources */,
+				1863DD62254AB8FB006756DF /* ZYLoginViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1863DD67254AB97D006756DF /* Target_ZYLoginMoudel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

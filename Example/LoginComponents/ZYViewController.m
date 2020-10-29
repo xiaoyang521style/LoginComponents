@@ -7,7 +7,7 @@
 //
 
 #import "ZYViewController.h"
-
+#import "ZYMediator+ZYLoginModule.h"
 @interface ZYViewController ()
 
 @end
@@ -17,9 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor yellowColor];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UIViewController *VC = [[ZYMediator sharedInstance]LoginModule_viewControllerWithParam:@{} callback:^(NSString * _Nonnull result) {
+        NSLog(@"resultA: --- %@", result);
+    }];
+    [self.navigationController pushViewController:VC animated:YES];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
